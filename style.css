@@ -82,8 +82,12 @@ body {
 
 @media (max-width: 500px) {
   .msg-container {
-    width: 100%;
-    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 3rem;
     padding: 0;
   }
 
