@@ -104,4 +104,17 @@ body {
     object-fit: cover;
     border-radius: 50%;
   }
+
+  .score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 3rem;
+  }
+  #user-score,
+  #comp-score {
+    font-size: 3rem;
+  }
 }
