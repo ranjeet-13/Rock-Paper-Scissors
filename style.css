@@ -66,9 +66,42 @@ img {
   padding: 1rem;
   border-radius: 1rem;
 }
-.counter{
+.counter {
   background-color: #051220;
   color: #fff;
   border-radius: 1rem;
   font-size: 3rem;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+@media (max-width: 500px) {
+  .msg-container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  element.style {
+    background-color: rgb(8, 27, 49);
+    font-size: x-large;
+  }
+  .choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    margin-top: 5rem;
+  }
+  img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
 }
